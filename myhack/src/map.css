@@ -1,0 +1,19 @@
+.subcontrol-container, .atlas-map-canvas-container, .mapboxgl-canvas .atlas-map-canvas, canvas {
+    position: static !important;
+}
+.azure-map-logo {
+    display: none;
+}
+.draw-buttons {
+    position: relative;
+    top: 40px;
+    left: 10px;
+    z-index: 2;
+    display: inline-block;
+}
+
+#map-element {
+    height: 75vh;
+    width: 100%;
+    margin-bottom: 1vh;
+}
